@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionPhyics.h" />
+    <ClInclude Include="ActionRegen.h" />
+    <ClInclude Include="BaseAction.h" />
+    <ClInclude Include="BaseComponent.h" />
+    <ClInclude Include="CompMaterial.h" />
+    <ClInclude Include="CompMobile.h" />
+    <ClInclude Include="ComponentMng.h" />
+    <ClInclude Include="CompRegen.h" />
+    <ClInclude Include="CompTransform.h" />
+    <ClInclude Include="EngineCore.h" />
+    <ClInclude Include="EngineType.h" />
+    <ClInclude Include="EngineVar.h" />
+    <ClInclude Include="EntityMng.h" />
+    <ClInclude Include="ERR.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="userCode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,13 +159,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="ECS.h" />
-    <ClInclude Include="Scene.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
