@@ -57,10 +57,7 @@
     <ClInclude Include="CompMaterial.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CompRegen.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ActionRegen.h">
+    <ClInclude Include="collisionCalc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
